@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+* {
+  margin:0;
+  padding: 0;
+  font-family: arial;
+}
+body {
+  background: #D3D3D3 url(../images/hero.png) no-repeat fixed center center;
+  z-index: 2;
+}
+.nav-bottons {
+ float:right;
+ margin-right:1vw;
+ left:0;
+ list-style: none;
+}
+.nav-bottons li {
+display: inline-block;
+line-height:12vh;
+margin:0px;
+padding:0px;
+}
+.nav-bottons li a {
+ text-align: center;
+ color:#000;
+   text-decoration: none;
+   padding: 20px;
+   border-radius: 10px;
+   font-weight: bold;
+   transition: 1s;
+
+}
+
+.nav-bottons li a:hover {
+ color:#fff;
+ background-color:#963350;
+ border-radius: 10px;
+ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#logo-name {
+  padding:0px;
+  position: relative;
+  text-align: center;
+}
+#logo {
+  background-color:;
+  color:;
+  position:absolute;
+  top:5.2vw;
+  left: 12vw;
+  display: inline-block;
+}
+
+h1 {
+  color:#000;
+  font-size:5vw;
+  font-family: 'Cinzel Decorative', cursive;
+  margin-top: 20%;
+}
+.declaration {
+  font-size: 1.5vw;
+ color:white;
+ }
+ .clear {
+   clear:both;
+ }
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+#copy-right {
+  float:left;
+  line-height:12vh;
+  font-size: 0.7em;
+  margin-left: 3vh;
+}
+.social-menue {
+  float:right;
+  margin-right:5vw;
+  left:0;
+  list-style: none;
+}
+.social-menue li {
+  display: inline-block;
+  line-height:12vh;
+  margin:0px;
+  padding:0px;
+}
+.social-menue li a {
+  text-align: center;
+  color:#000;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: 1s;
+}
+.social-menue li a:hover {
+ color:#fff;
+ background-color:#963350;
+ border-radius: 50px;
+ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
