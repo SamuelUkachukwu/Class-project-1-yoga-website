@@ -47,7 +47,7 @@ padding:0px;
   color:;
   position:absolute;
   top:5.2vw;
-  left: 12vw;
+  left: 10vw;
   display: inline-block;
 }
 
@@ -55,11 +55,12 @@ h1 {
   color:#000;
   font-size:5vw;
   font-family: 'Cinzel Decorative', cursive;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 .declaration {
   font-size: 1.5vw;
  color:white;
+ line-height: 2em;
  }
  .clear {
    clear:both;
