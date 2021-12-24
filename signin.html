@@ -19,44 +19,38 @@
       </ul>
     </nav>
     <div class="clear"></div>
-
-    <section class="registration">
-
-      <div id="left">
-
-        <form action="" method="post">
-          <div>
-           <h3>Not yet a member? Sign up!</h3>
+<section class="registration">
+  <div id="left">
+    <form action="" method="post">
+          <div class="details">
+            <label for="">Username:</label> <br>
+            <input id="username" type="text" placeholder="Username...">
+          </div>
+          <div class="details">
+            <label for="">Password:</label><br>
+            <input id="password" type="password" placeholder="Password...">
           </div>
           <div>
-            <label for="fullname">Full Name:</label><br>
-            <input id="fullname" type="text" placeholder="Full Name...">
+            <button type="submit">Login</button>
           </div>
           <div>
-          <label for="email">Email:</label><br>
-          <input id="email" type="email" name="email" placeholder="Email..">
+            <a id="forgottenpassword" href="#"> <i><P>I've forgotten my password</p></i></a>
           </div>
-          <div>
-            <label for="phonenumber:">Phone Number:</label><br>
-          <input id="phonenumber" type="tel" name="phone"  placeholder="phone number">
-          </div>
-          <label for="age">Age:</label><br>
-        <select id="age" name="age" required>
-		      	<option value="under-20">Under 20</option>
-		      	<option value="20s">20-29</option>
-		      	<option value="30s">30-39</option>
-		      	<option value="40s">40-49</option>
-		      	<option value="50s">50-59</option>
-	 	      	<option value="60+">60+</option>
-		  </select>
 
-          <div>
-            <button type="submit">Sign up</button>
+          <div id="new-members">
+            <p>Not yet a member?
+              <a href="signup.html">sign-up</a>
+            </p>
           </div>
         </form>
-      </div>
-    <img id="right" src="assets/images/logo-image.png" alt="">
-    </section>
+  </div>
+<img id="right" src="assets/images/logo-image.png" alt="">
+
+
+
+</section>
+
+
 
     <footer>
       <p id="copy-right">Copyright © shybold 2021</p>
