@@ -18,6 +18,7 @@ font-family: 'Island Moments', cursive;
 }
 h3, p {
   font-family: Roboto, Arial, sans-serif;
+
 }
 a {
   text-decoration: none;
@@ -40,7 +41,7 @@ letter-spacing: 1px;
 }
 
 #main-page-menu li {
- float:right;
+ float: right;
  display: inline-block;
  list-style: none;
  margin-right: 30px;
@@ -70,7 +71,6 @@ letter-spacing: 1px;
   background-size: cover;
 }
 #hero-box {
-  background-color: ;
   height: 300px;
   width: 65%;
   text-align: center;
@@ -110,7 +110,7 @@ margin:0px;
   height: auto;
   text-align: center;
 }
-#image-logo-area p {
+#image-logo-area h3 {
   padding: 5px;
 }
 .container-top {
@@ -253,7 +253,7 @@ flex-wrap: wrap;
 }
 .card {
   width:20%;
-  background: pink;
+  background: #F59565;
   border-radius: 5px;
   border: 1px solid #000;
   margin: 5px 10px;
@@ -263,17 +263,27 @@ flex-wrap: wrap;
 .classes-header {
   text-align: center;
   padding: 10px 10px;
-  background-color: yellow;
+  background-color:#754730;
+  color:#fff;
+}
+.prices {
+  padding: 20px;
+  text-align: center;
+  font-weight:bold;
 }
 .card-texts {
   text-align: center;
-  padding: 50px 10px;
+ padding: 40px 20px 20px 20px;
   font-size: 18px;
+  height: 200px;
 }
 .signup-link {
   text-decoration: none;
   display: block;
-  background-color: red;
+  background-color: #D65542;
+  font-weight:bold;
+  text-transform:uppercase;
+  color:#000;
   text-align: center;
   padding: 10px;
   margin: 10px;
