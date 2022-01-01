@@ -270,23 +270,34 @@ flex-wrap: wrap;
   padding: 20px;
   text-align: center;
   font-weight:bold;
+  display:block;
+  background-color:#FF5B55;
 }
 .card-texts {
   text-align: center;
  padding: 40px 20px 20px 20px;
   font-size: 18px;
   height: 200px;
+  
 }
 .signup-link {
   text-decoration: none;
   display: block;
   background-color: #D65542;
+  font-family: Roboto, Arial, sans-serif;
   font-weight:bold;
   text-transform:uppercase;
   color:#000;
   text-align: center;
   padding: 10px;
   margin: 10px;
+}
+#gallery-link {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  color:#000;
+  font-weight: bold;
+  display:block;
 }
 footer {
     width: 100%;
@@ -326,13 +337,17 @@ footer {
  color:#D65542;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1050px) {
   .card {
     width: 40%;
   }
   #no-footer {
     display: none;
   }
+  .card-texts {
+    height: 200px;
+      
+   }
 }
 
 @media screen and (max-width: 790px) {
@@ -348,6 +363,7 @@ footer {
   #right {
 display:none;
     }
+
 }
 
 @media screen and (max-width:620px) {
